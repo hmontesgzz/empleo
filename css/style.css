@@ -2,7 +2,7 @@ body{
 	font-size: 16px;
 }
 #container{
-	width: 80%;
+	width: 1000px;
 	margin: auto;
 }
 
@@ -17,7 +17,7 @@ header{
 
 .access {
 	float: right;
-	margin: 3%;
+	margin: 40px;
 }
 
 #botonLogin{
@@ -34,9 +34,13 @@ header{
 
 
 /*estilo de la seccion de busqueda en el home*/
+.midSection{
+	height: 350px;
+}
+
 .homeSearch{
-	margin-top: 5%;
-	width: 65%;
+	margin-top: 30px;
+	width: 645px;
 	height: 300px;
 	float: left;
 }
@@ -80,9 +84,9 @@ header{
 
 /*Aqui poner estilo de la seccion de registro en Home*/
 #homeRegister{
-	  width: 35%;
+	  width: 355px;
   float: left;
-  margin-top: 5%;
+  margin-top: 30px;
   height: 300px;
 }
 
@@ -119,6 +123,17 @@ header{
 
 /*--------------------------------------------------*/
 
+#homeText{
+	width: 1000px;
+	height: 100px;
+	border: 1px solid gray;
+  box-shadow: 1px 1px 1px 1px
+}
+
+.homemidtext{
+	padding: 3px;
+}
+
 /*Footer*/
 footer{
 	
@@ -126,6 +141,9 @@ footer{
 .footer{
 	position: absolute;
 	bottom: 0;
-	width: 85%;
+	width: 1000px;
+	border: 1px solid gray;
+  box-shadow: 1px 1px 1px 1px;
+  text-align: center;
 	
 }
