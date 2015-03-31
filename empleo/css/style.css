@@ -1,0 +1,93 @@
+body{
+	font-size: 16px;
+}
+#container{
+	width: 80%;
+	margin: auto;
+}
+
+header{
+	height: 100px;
+	border: 1px solid gray;
+	box-shadow: 1px 1px 1px 1px;
+}
+#logo {
+	float: left;
+}
+
+.access {
+	float: right;
+	margin: 3%;
+}
+
+#botonLogin{
+	box-shadow: 1px 1px 0px 0px ;
+}
+
+#botonLogin:hover{
+	background-color: lightblue;
+}
+
+/*estilo de la seccion de busqueda en el home*/
+.homeSearch{
+	margin-top: 5%;
+	width: 65%;
+	height: 300px;
+	float: left;
+}
+
+#home_palabraB{
+	width: 100%;
+}
+
+#buscaPalabra{
+	width: 95%;
+}
+#home_palabraB, #home_categoriaB, #home_estadoB,#home_salarioB, #home_diasB{
+	margin: 0 0 30px 10px;
+  	float: left;
+}
+#home_categoriaB, #home_salarioB, #home_estadoB, #home_diasB{
+	width: 47%;
+}
+#comboEstado, #comboCategoria, #comboSalario, #comboDias{
+	width: 100%;
+}
+#home_btnB{
+	text-align: center;
+}
+
+.home_btn{
+	width: 130px;
+	height: 50px;
+}
+
+.homeFieldset{
+	height: 280px;
+}
+
+
+/*Finaliza estilo seccion busqueda en home*/
+
+/*Aqui poner estilo de la seccion de registro en Home*/
+#homeRegister{
+	  width: 35%;
+  float: left;
+  margin-top: 5%;
+  height: 300px;
+}
+
+
+
+/*--------------------------------------------------*/
+
+/*Footer*/
+footer{
+	
+}
+.footer{
+	position: absolute;
+	bottom: 0;
+	width: 85%;
+	
+}
