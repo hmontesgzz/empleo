@@ -3,7 +3,8 @@
 	<head>
 		<title>Busca empleo</title>
 		<meta charset="UTF-8">
-		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<script src="script/home.js"> </script>
 	</head>
 
 	<body>
@@ -38,7 +39,7 @@
 					<article id="home_categoriaB">
 						Categoría:
 							<select name="categoria" id="comboCategoria">
-			 					<option> Seleciona Categoria</option>
+			 					<option value="0"> Seleciona Categoria</option>
 			 					<option value="cualquiera">-Cualquiera-</option>
 								<option value="contabilidad">Contabilidad</option>
 								<option value="administracion">Administracion</option>
@@ -48,7 +49,7 @@
 					<article id="home_estadoB">
 						Estado:
 							<select name="Estados" id="comboEstado">
-				 				<option> Seleciona estado</option>
+				 				<option value="0"> Seleciona Estado</option>
 				 				<option value="Cualquiera">-Cualquiera-</option>
 								<option value="Aguascalientes">Aguascalientes</option>
 								<option value="Baja California">Baja California</option>
@@ -88,7 +89,7 @@
 					<article id="home_salarioB">
 						Salario:
 							<select name="Salario" id="comboSalario">
-				 				<option> Selecciona </option>
+				 				<option value="0"> Selecciona Salario </option>
 				 				<option value="Cualquiera">Cualquiera</option>
 				 				<option value="0A3mil">$0 MXN - $3,000 MXN</option>
 								<option value="3milA6mil">$3,000 MXN - $6,000 MXN</option>
@@ -99,7 +100,7 @@
 					<article id="home_diasB">
 						Desde hace:
 							<select name="diasVacante" id="comboDias">
-				 				<option> Selecciona </option>
+				 				<option value="0"> Selecciona Tiempo </option>
 				 				<option value="Cualquiera">Cualquiera</option>
 				 				<option value="0A3mil">1 día</option>
 								<option value="3milA6mil">2 días</option>
@@ -108,7 +109,7 @@
 							</select>
 					</article>
 					<article id="home_btnB">
-						<input class="home_btn"type="submit" value="Buscar">
+						<input class="home_btn"type="submit" value="Buscar" onclick="validarBusquedaHome()">
 					</article>		
 			</fieldset>
 		</section>
