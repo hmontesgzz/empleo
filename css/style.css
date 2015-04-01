@@ -15,6 +15,12 @@ header{
 	float: left;
 }
 
+/*Clase legends de todos los forms*/
+.legends{
+	font-size: 20px;
+	text-shadow: 0.2px 0.2px 1.5px #000000;
+}
+
 .access {
 	float: right;
 	margin: 40px;
@@ -119,15 +125,53 @@ header{
 	box-shadow: 1px 1px 0px 0px ;
 }
 
+/*Estilo sección Perfil Usuario*/
 
+#PerfilUsuario{
+	font: 150% sans-serif;	
+}
 
+.Bienvenido{
+	float: right;
+	margin: 40px;
+	font-size: 20px;
+}
+
+.PerfilUsuario{
+	text-align: left;
+
+}
+
+#datosPersonales{
+margin-top: 30px;
+	width: 1000px;
+	height: 550px;
+	float: left;
+}
+
+#PerfilBtnGuardar{
+	box-shadow: 1px 1px 0px 0px ;
+}
+
+#PerfilBtnGuardar:hover{
+	background-color: lightblue;
+}
+
+#PerfilNombresArt, #PerfilApellidosArt, #PerfilCorreoArt,#PerfilGeneroArt, #PerfilFechaNacimientoArt, #PerfilEstadoArt,#PerfilCiudadArt,#PerfilCodigoPostalArt,#PerfilTeloCelArt{
+	margin: 0 0 30px 10px;
+  	float: left;
+}
+
+#PerfilBtnArt{
+	text-align: center;
+	margin-top: 80px;
+}
 /*--------------------------------------------------*/
 
 #homeText{
 	width: 1000px;
 	height: 100px;
 	border: 1px solid gray;
-  box-shadow: 1px 1px 1px 1px
 }
 
 .homemidtext{

@@ -4,9 +4,9 @@ var estadoBusqueda = document.getElementById("comboEstado").value;
 var salarioBusqueda = document.getElementById("comboSalario").value;
 var diasBusqueda = document.getElementById("comboDias").value;
 
-var nombre = document.getElementById("RegistroNombre").value;
-var apellidos = document.getElementById("RegistroApellidos").value;
-var email = document.getElementById("RegistroEmail").value;
+var RegistroNomUsu = document.getElementById("RegistroUserName").value;
+var RegistroPass1 = document.getElementById("RegistroPassword").value;
+var RegistroPass2 = document.getElementById("RegistroRepeatPass").value;
 
 function validarBusquedaHome(){
 	var palabraBusqueda = document.getElementById("buscaPalabra").value;
@@ -25,14 +25,30 @@ function validarBusquedaHome(){
 }
 
 function validarRegistro(){
-	var nombre = document.getElementById("RegistroNombre").value;
-	var apellidos = document.getElementById("RegistroApellidos").value;
-	var email = document.getElementById("RegistroEmail").value;
+	var RegistroNomUsu = document.getElementById("RegistroUserName").value;
+	var RegistroPass1 = document.getElementById("RegistroPassword").value;
+	var RegistroPass2 = document.getElementById("RegistroRepeatPass").value;
+	var aviso = document.getElementById("aviso");
+	aviso.innerHTML=""
 	
 	if (
-		nombre == 0 && apellidos == 0 && email == 0
-		)
+		RegistroNomUsu == 0 && RegistroPass1 == 0 && RegistroPass2 == 0
+	   )
 	{
 		alert("Ingresa al menos un parámetro de registro");
 	}
+
+	if (
+		RegistroPass1 != RegistroPass2
+	   ) 
+		{
+			alert("Las contraseñas no coinciden");
+		}
+
+	if(
+		RegistroNomUsu.value.length <= 5
+	  )
+		{
+		alert("Nombre usuario debe tener 6 caracteres como mínimo");
+		}
 }
