@@ -32,7 +32,7 @@
 		<!------------------------------------------------EMPIEZA SECCION DE BUSQUEDA-------------------------------------------------->
 		<section class="homeSearch">
 			<fieldset class="homeFieldset"align="left">
-				<legend>Buscar</legend>
+				<legend class="legends">Buscar</legend>
 					<article id="home_palabraB">
 						Palabra de busqueda:
 							<input type="text" id="buscaPalabra" placeholder="Ingresa nombre de vacante">
@@ -130,21 +130,22 @@
 		<section id="homeRegister">
 		 	<form align="right">
 	   			<fieldset class="homeFieldset" align="right">
-      			<legend>¿Aún no estás registrado?</legend>
+      			<legend class="legends">¿Aún no estás registrado?</legend>
       			
       			<article id="home_regUserName">
-      					Nombre de usuario: <input id="RegistroUserName" type="text" placeholder="Escribe tu(s) nombre(s)"/><br />
+      					Nombre de usuario: <input id="RegistroUserName" type="text" placeholder="Escribe tu nombre de usuario"/><br />
       			</article>
       			<article  id="home_regPassword">
-      					Contraseña: <input id="RegistroPassword" type="password" placeholder="Escribe tus apellidos"/><br />
+      					Contraseña: <input id="RegistroPassword" type="password" placeholder="Escribe la contraseña"/><br />
       			</article>
       			<article id="home_regRepeatPass">
-      					Repetir contraseña: <input id="RegistroRepeatPass" type="password" placeholder="Escribe tu correo vigente"/><br />
+      					Repetir contraseña: <input id="RegistroRepeatPass" type="password" placeholder="Repite la contraseña"/><br />
       			</article>
       			<article id="RegistroBtnRegistraArt">
       					<input id="BtnRegistrar" class="home_btn home_btnB" type="submit" value="Registrar" onclick="validarRegistro()">
       			</article>
    	  			</fieldset>
+   	  			<p id="aviso"> </p>
    	  		</form>
 		</section>
 		<!------------------------------------------------TERMINA SECCION DE REGISTRO-------------------------------------------------->
